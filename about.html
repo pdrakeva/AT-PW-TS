@@ -1,72 +1,51 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Automation testing with Playwright and Typescript</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li style="display: inline;"><a href="index.html">Home</a></li>
-                <li style="display: inline;"><a href="#">About</a></li>
-                <li style="display: inline;"><a href="contacts.html">Contacts</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contacts.html">Contacts</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <h1 style="text-align: center;">Integer pharetra orci sit amet ullamcorper auctor</h1>           
+      <h1>Welcome to our page!</h1>
 
-        <section style="text-align: center;">
-            <h2>In aliquet magna eros</h2>
-            <p>In blandit vehicula ante vitae luctus. Donec vel tellus quis diam porttitor auctor sed id nunc. Vestibulum neque augue, porta quis neque ac, faucibus hendrerit eros. Fusce arcu mauris, lacinia non odio a, luctus porta nibh. Duis iaculis auctor mauris vitae tincidunt. Aenean vitae gravida purus. Mauris maximus a elit at malesuada. Nunc a elit diam.</p>
-            <button>Learn more...</button>
-        </section>
-        
-        <section style="text-align: center;">            
-            <table style="margin-left: auto; margin-right: auto;">
-                <tr>
-                    <td style="width: 33%;">
-                        <h3>Vivamus a efficitur augue</h3>
-                        <img width="300" alt="Vivamus a efficitur augue" src="./assets/company image 1.jpg" />
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac augue lectus. Sed purus odio, luctus vitae ullamcorper sed, interdum vitae neque. Suspendisse potenti.</p> 
-                    </td>
-                    <td style="width: 33%;">
-                        <h3>Mauris a convallis sem</h3>
-                        <img width="300" alt="Mauris a convallis sem" src="./assets/company image 2.jpg" />
-                        <p>Phasellus tincidunt efficitur dignissim. Morbi nisi est, sodales vel molestie ac, molestie vitae lacus. Nullam pulvinar ullamcorper lectus, eu tristique nibh pharetra sed.</p>
-                    </td>
-                    <td style="width: 33%;">
-                        <h3>Cras sit amet quam porttitor</h3>
-                        <img width="300" alt="Cras sit amet quam porttitor" src="./assets/company image 3.jpg" />
-                        <p>Sed quam eros, porttitor quis elementum id, rutrum non est. Nulla finibus sem sed hendrerit sollicitudin. Praesent commodo pulvinar magna id bibendum.</p> 
-                    </td>
-                </tr>
-            </table>
-        </section>
+      <section class="search-bar">
+        <input type="text" placeholder="Search here..." />
+        <button>Search</button>
+      </section>
 
-        <hr />
+      <section class="image-container">
+        <img alt="First image" src="./assets/company image 1.jpg" />
+        <img alt="First image" src="./assets/company image 2.jpg" />
+        <img alt="Third image" src="./assets/company image 3.jpg" />
+      </section>
 
+      <section class="description">
+        <h3>Description</h3>
+        <h4>Description</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+          placerat, tellus vel eleifend tincidunt, magna dui pretium lectus, in
+          vehicula sem justo at metus. Proin vel lacus vitae est auctor
+          facilisis vitae id nisi. Vivamus eleifend vehicula finibus.
+          Suspendisse ut vestibulum urna. Aenean tristique justo et augue
+          consectetur cursus. Fusce quis nunc auctor, lobortis ante id,
+          consectetur diam.
+        </p>
+      </section>
     </main>
 
-    <footer style="text-align: center;">
-        <table style="margin-left: auto; margin-right: auto;">
-            <tr>
-                <td>
-                    <button>Find us on LinkedIn <i class="fa fa-linkedin-square" style="color: #0077B5;"></i>
-                </td>
-                <td>
-                    <button>Find us on Instagram <i class="fa fa-instagram" style="color: red;"></i>
-                </td>
-                <td>
-                    <button>Find us on Facebook <i class="fa fa-facebook-square" style="color: blue;"></i>
-                </td>
-            </tr>
-        </table>
-        <p>&#169; All rights reserved.</p>
+    <footer>
+      <p>&#169; All rights reserved.</p>
     </footer>
-
-</body>
+  </body>
 </html>
