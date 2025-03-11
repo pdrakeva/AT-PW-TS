@@ -20,7 +20,7 @@ console.log("Numbers greater than 5:", numbersFiltered);
 
 //Use the sort method to sort an array of numbers [9, 3, 7, 2, 8, 5] in ascending order. Log the result.
 let numbersSort: number[] = [9, 3, 7, 2, 8, 5];
-numbersSort.sort((a, b) => a - b);
+numbersSort.sort();
 console.log("Numbers sorted in ascending order:", numbersSort);
 
 //Use the slice method to extract the first three elements from ['apple', 'banana', 'cherry', 'date', 'elderberry']. Log the result.
@@ -58,7 +58,7 @@ console.log("Inches to cm with parameter:", convertToCentimeters(10));
 
 //Write a function named “calculateArea” that takes a required width parameter and an optional height parameter. If height is not provided, assume the shape is a square.
 function calculateArea(width: number, height?: number): number {
-  if (typeof height !== "undefined") {
+  if (height) {
     return width * height;
   } else {
     return width * 2;
