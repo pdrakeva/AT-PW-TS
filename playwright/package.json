@@ -1,0 +1,22 @@
+{
+  "name": "at-pw-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdrakeva/AT-PW-TS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pdrakeva/AT-PW-TS/issues"
+  },
+  "homepage": "https://github.com/pdrakeva/AT-PW-TS#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.13.10"
+  }
+}
